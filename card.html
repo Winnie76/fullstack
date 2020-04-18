@@ -9,6 +9,7 @@
         body{
             background: skyblue;
         }
+        /* 这个最外面的container需要做成responsive的，练习一下display flex，可以做一个卡片然后复制多份练习一下 */
         .wrap{
             width: 1000px;
             margin:auto;
@@ -37,6 +38,12 @@
     </style>
 </head>
 <body>
+    <!-- 做的有点太简单了，可以参考一下这个card认真做一下，https://github.com/56tiagra/css-flex-prac，主要是为了练习多元素的位置排列，改好我可以再帮你review一下
+    这些img的icon可以用font-awesome的icon来代替，参考一下https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+    字体可以用Google的fonts，会更好看一些，可以参考一下这个作业的引用https://github.com/56tiagra/css-flex-prac
+    class命名可以用BEM的方法，比如card， card__header, card__header__left-icon, card__header__title, card__header__right-icon这样 -->
+     
+      <!-- html attribute等于号两边不需要加空格的，也最好不要加这种inline style -->
       <div class = "wrap">
         <div class = "card">
               <img src ="card.png" alt = "card" style = "width:100%">
